@@ -1,0 +1,63 @@
+# Charts for the Japanese page, from Google Sheets. They're live: when you
+# update the spreadsheet, the page shows the new numbers within a few minutes.
+#
+# Each entry under `stacks` is one group of charts layered on top of each
+# other, like in your sheet. The first chart is the bottom layer (your pie
+# chart); the rest are drawn on top, in order.
+#
+# For each chart:
+#   src:     the "Publish to web" link (File → Share → Publish to web →
+#            pick the chart). A link ending in format=interactive is embedded
+#            with hover tooltips; one ending in format=image is shown as a
+#            picture. Leave blank to see a placeholder box.
+#   x, y:    where its top-left corner sits, in pixels from the top-left of
+#            the bottom chart. Easiest way to get these: open the page with
+#            ?arrange on the end (e.g. /japanese/?arrange), drag the charts
+#            into place, and copy the numbers it shows.
+#   width, height: its size in pixels, as set in Sheets
+#   title:   a short description, read by screen readers
+#
+# `width`/`height` on the stack itself is the size of the whole group
+# (normally the same as the bottom chart). On screens narrower than that,
+# the whole group shrinks together so the overlays stay lined up.
+
+stacks:
+  - title: Japanese immersion hours
+    width: 600
+    height: 371
+    charts:
+      - title: Japanese immersion hours since 4/26/26, by type
+        src: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTW4RE1876EVDTvxuh2BNZ7almwjZpKVA-sptsS2AQiNCqPQlbdWnSUKbrsp5U5R5g6mWqys47vmrp9/pubchart?oid=1763313891&format=interactive"
+        x: 0
+        y: 0
+        width: 600
+        height: 371
+      - title: Total immersion hours
+        src: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTW4RE1876EVDTvxuh2BNZ7almwjZpKVA-sptsS2AQiNCqPQlbdWnSUKbrsp5U5R5g6mWqys47vmrp9/pubchart?oid=2033727055&format=image"
+        x: 15
+        y: 190
+        width: 195
+        height: 122
+      - title: Total immersion time in days, hours, and minutes
+        src: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTW4RE1876EVDTvxuh2BNZ7almwjZpKVA-sptsS2AQiNCqPQlbdWnSUKbrsp5U5R5g6mWqys47vmrp9/pubchart?oid=996888660&format=image"
+        x: 10
+        y: 315
+        width: 272
+        height: 50
+      - title: Anime hours
+        src: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTW4RE1876EVDTvxuh2BNZ7almwjZpKVA-sptsS2AQiNCqPQlbdWnSUKbrsp5U5R5g6mWqys47vmrp9/pubchart?oid=1997476659&format=image"
+        x: 482
+        y: 291
+        width: 128
+        height: 80
+
+  - title: Japanese immersion hours by week
+    width: 600
+    height: 371
+    charts:
+      - title: Japanese immersion hours by week
+        src: "https://docs.google.com/spreadsheets/d/e/2PACX-1vTW4RE1876EVDTvxuh2BNZ7almwjZpKVA-sptsS2AQiNCqPQlbdWnSUKbrsp5U5R5g6mWqys47vmrp9/pubchart?oid=646400487&format=interactive"
+        x: 0
+        y: 0
+        width: 600
+        height: 371

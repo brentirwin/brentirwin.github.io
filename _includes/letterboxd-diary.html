@@ -1,0 +1,37 @@
+{% comment %}
+  Recent Letterboxd diary, built from _data/letterboxd.json
+  (refreshed by scripts/fetch-letterboxd.rb).
+  Usage: {% include letterboxd-diary.html %}  or  {% include letterboxd-diary.html count=20 %}
+{% endcomment %}
+{% assign lb = site.data.letterboxd %}
+{% if lb and lb.entries.size > 0 %}
+  {% assign count = include.count | default: 10 %}
+  {% assign recent = lb.entries | slice: 0, count %}
+  {% assign this_year = site.time | date: "%Y" %}
+  {% assign months = recent | group_by_exp: "e", "e.watched | slice: 0, 7" %}
+  <div class="lb-diary">
+    {% for month in months %}
+      {% assign first_date = month.items.first.watched | append: "T12:00:00" %}
+      {% assign year = first_date | date: "%Y" %}
+      <div class="lb-month">
+        <div class="lb-cal" aria-label="{{ first_date | date: '%B %Y' }}">
+          <span class="lb-cal-month">{{ first_date | date: "%b" }}</span>
+          {% if year != this_year %}<span class="lb-cal-year">{{ year }}</span>{% endif %}
+        </div>
+        <ol class="lb-films">
+          {% for film in month.items %}
+            {% assign day = film.watched | append: "T12:00:00" | date: "%-d" %}
+            <li>
+              <span class="lb-day">{{ day }}</span>
+              <a class="lb-title" href="{{ film.url }}">{{ film.title }}</a>
+              {% if film.stars != "" %}<span class="lb-stars" title="{{ film.rating }} stars">{{ film.stars }}</span>{% endif %}
+              {% if film.liked %}<span class="lb-like" title="Liked">&#9829;</span>{% endif %}
+              {% if film.rewatch %}<span class="lb-rewatch" title="Rewatch">&#8635;</span>{% endif %}
+            </li>
+          {% endfor %}
+        </ol>
+      </div>
+    {% endfor %}
+    <p class="lb-more"><a href="https://letterboxd.com/{{ lb.username }}/films/diary/">Full diary on Letterboxd</a></p>
+  </div>
+{% endif %}

@@ -1,0 +1,45 @@
+---
+layout: page
+title: Résumé
+nav_order: 4
+permalink: /resume/
+---
+
+{% comment %} The entries live in _data/resume.yml. {% endcomment %}
+{% assign r = site.data.resume %}
+
+<h2>Directing</h2>
+<ol class="resume-list">
+  {% for item in r.directing %}
+    <li>
+      <span class="resume-title">{{ item.title }}</span>
+      <span class="resume-meta">
+        {{ item.writers }} · {{ item.venue }}{% if item.assistant %} · <span class="resume-tag">Assistant director</span>{% endif %}
+      </span>
+      {% if item.note %}<span class="resume-note">{{ item.note }}</span>{% endif %}
+    </li>
+  {% endfor %}
+</ol>
+
+<h2>Performance</h2>
+<ol class="resume-list">
+  {% for item in r.performance %}
+    <li>
+      <span class="resume-title">{{ item.title }}</span>
+      <span class="resume-meta"><span class="resume-role">{{ item.role }}</span> · {{ item.venue }}</span>
+    </li>
+  {% endfor %}
+</ol>
+
+<h2>Education</h2>
+{% for item in r.education %}
+  <div class="resume-education">
+    <span class="resume-title">{{ item.degree }}</span>
+    <span class="resume-meta">{{ item.school }} · {{ item.location }} · {{ item.date }}</span>
+    {% if item.highlights %}
+      <ul>
+        {% for h in item.highlights %}<li>{{ h }}</li>{% endfor %}
+      </ul>
+    {% endif %}
+  </div>
+{% endfor %}

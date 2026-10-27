@@ -1,0 +1,25 @@
+{% comment %}
+  A group of Google Sheets charts layered on top of each other.
+  Usage (see japanese.md): include chart-stack.html with stack=<one entry from _data/japanese_charts.yml>
+  Everything is laid out at its real pixel size, then public/js/chart-stack.js
+  shrinks the whole group as one piece on narrow screens, so interactive
+  charts never re-flow out from under the overlays.
+{% endcomment %}
+{% assign stack = include.stack %}
+<figure class="chart-stack" style="max-width: {{ stack.width }}px" data-width="{{ stack.width }}" data-height="{{ stack.height }}">
+  <div class="chart-stack-sizer" style="height: {{ stack.height }}px">
+    <div class="chart-stack-frame" style="width: {{ stack.width }}px; height: {{ stack.height }}px">
+      {% for chart in stack.charts %}
+        {% capture pos %}left: {{ chart.x }}px; top: {{ chart.y }}px; width: {{ chart.width }}px; height: {{ chart.height }}px; z-index: {{ forloop.index }}{% endcapture %}
+        {% capture data %}data-title="{{ chart.title }}" data-x="{{ chart.x }}" data-y="{{ chart.y }}" data-w="{{ chart.width }}" data-h="{{ chart.height }}"{% endcapture %}
+        {% if chart.src == "" or chart.src == nil %}
+          <div class="chart-stack-item chart-stack-placeholder" style="{{ pos }}" {{ data }}>{{ chart.title }}</div>
+        {% elsif chart.src contains "format=interactive" %}
+          <iframe class="chart-stack-item chart-stack-interactive" src="{{ chart.src }}" title="{{ chart.title }}" scrolling="no" style="{{ pos }}" {{ data }}></iframe>
+        {% else %}
+          <img class="chart-stack-item" src="{{ chart.src }}" alt="{{ chart.title }}" style="{{ pos }}" {{ data }}>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</figure>

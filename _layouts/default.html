@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  {% include head.html %}
+
+  <body class="{{ site.hyde_theme }}{% if site.hyde_reverse %} layout-reverse{% endif %}{% if page.wide %} layout-wide{% endif %}">
+
+    {% include sidebar.html %}
+
+    <div class="content container">
+      {{ content }}
+    </div>
+
+  </body>
+</html>

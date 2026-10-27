@@ -1,0 +1,28 @@
+{% comment %}
+  Recently read books, built from _data/goodreads.json
+  (refreshed by scripts/fetch-goodreads.rb).
+  Usage: {% include goodreads-shelf.html %}  or  {% include goodreads-shelf.html count=10 %}
+{% endcomment %}
+{% assign gr = site.data.goodreads %}
+{% if gr and gr.books.size > 0 %}
+  {% assign count = include.count | default: 5 %}
+  <ol class="gr-shelf">
+    {% for book in gr.books limit: count %}
+      <li>
+        <a class="gr-cover" href="{{ book.url }}"><img src="{{ book.cover }}" alt="" loading="lazy"></a>
+        <div class="gr-info">
+          <a class="gr-title" href="{{ book.url }}">{{ book.title }}</a>
+          <span class="gr-meta">
+            {{ book.author }}{% if book.read %} · {{ book.read | append: "T12:00:00" | date: "%b %Y" }}{% endif %}
+          </span>
+        </div>
+        {% case book.verdict %}
+          {% when "loved-it" %}<span class="gr-verdict gr-loved"><span aria-hidden="true">&#9829;</span> Loved it</span>
+          {% when "liked-it" %}<span class="gr-verdict gr-liked">Liked it</span>
+          {% when "not-for-me" %}<span class="gr-verdict gr-not">Not for me</span>
+        {% endcase %}
+      </li>
+    {% endfor %}
+  </ol>
+  <p class="lb-more"><a href="https://www.goodreads.com/review/list/{{ gr.profile }}?shelf=read">Full shelf on Goodreads</a></p>
+{% endif %}

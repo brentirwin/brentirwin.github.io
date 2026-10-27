@@ -1,0 +1,24 @@
+---
+layout: page
+title: Posts
+nav_order: 1
+permalink: /posts/
+---
+
+{% if site.posts.size == 0 %}
+  <p>Nothing here yet.</p>
+{% else %}
+  {% assign by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+  {% for year in by_year %}
+    <h2>{{ year.name }}</h2>
+    <ul class="post-list">
+      {% for post in year.items %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <small>{{ post.date | date: "%b %-d" }}</small>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+  <p><a href="{{ '/feed.xml' | relative_url }}">RSS feed</a></p>
+{% endif %}

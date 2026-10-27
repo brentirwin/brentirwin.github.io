@@ -1,0 +1,48 @@
+# ------------------------------------------------------------------
+# Site settings — edit these first
+# ------------------------------------------------------------------
+title:       Brent Irwin
+tagline:     Personal homepage
+description: "Why do I even need a website?"  # used for search results and link previews
+email:       me@brentirw.in                   # shown under your name in the sidebar
+# Lines shown under your name in the sidebar, one per line
+byline:
+  - Theatre Director
+  - Austin, TX
+url:         "https://brentirwin.github.io"   # change to "https://brentirw.in" once the domain points to GitHub
+baseurl:     ""
+
+author:
+  name: Brent Irwin
+
+# Hyde color theme for the sidebar + links. Leave blank for the classic
+# dark gray, or pick one of: theme-base-08 (red), -09 (orange), -0a (yellow),
+# -0b (green), -0c (cyan), -0d (blue), -0e (magenta), -0f (brown)
+hyde_theme: "theme-base-0c"
+# Set to true to put the sidebar on the right instead of the left
+hyde_reverse: false
+
+# Your usernames on other services. Leave one blank and it's hidden.
+elsewhere:
+  letterboxd: "brentirwin"  # letterboxd.com/<this>
+  ign_playlist: ""    # full profile URL from IGN Playlist
+  goodreads: "6518326-brent-irwin"  # from your profile URL: goodreads.com/user/show/<this>
+  github: ""          # github.com/<this>
+
+# ------------------------------------------------------------------
+# Build settings — these match GitHub Pages, so you shouldn't need
+# to change them
+# ------------------------------------------------------------------
+markdown:  kramdown
+permalink: /posts/:year/:month/:title/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - LICENSE-hyde.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - scripts

@@ -1,0 +1,95 @@
+# Theatre résumé, shown on the Resume page (resume.html).
+# Entries appear in the order listed. `note` is optional and shows in
+# smaller text under the title (awards, competitions, etc.).
+
+directing:
+  - title: Sweeney Todd
+    writers: Stephen Sondheim, Hugh Wheeler
+    venue: Round Rock High School
+    note: "Winner: Best Production, Best Direction, Best Lead Actress, Best Technical Execution"
+  - title: Pippin
+    writers: Stephen Schwartz, Roger O. Hirson
+    venue: Round Rock High School
+  - title: Something Rotten
+    writers: Kirkpatrick, Kirkpatrick, O’Farrell
+    venue: Round Rock High School
+    note: "Winner: Best Lead Actor, Best Supporting Actor"
+  - title: Four by Tenn
+    writers: Tennessee Williams
+    venue: Birmingham-Southern College
+    note: Something Unspoken, This Property is Condemned, 27 Wagons Full of Cotton, Hello from Bertha
+  - title: Tartuffe
+    writers: Molière
+    venue: Round Rock High School
+    note: UIL
+  - title: You Can’t Take It With You
+    writers: Kaufman and Hart
+    venue: Round Rock High School
+    assistant: true
+  - title: Amadeus
+    writers: Peter Shaffer
+    venue: Round Rock High School
+    assistant: true
+    note: UIL 6A State Finalist
+  - title: Mary Shelley’s Frankenstein
+    writers: Nick Dear
+    venue: Round Rock High School
+    assistant: true
+    note: UIL
+  - title: The Government Inspector
+    writers: Nikolai Gogol, Jeffrey Hatcher
+    venue: Round Rock High School
+    assistant: true
+  - title: Death of a Salesman
+    writers: Arthur Miller
+    venue: Round Rock High School
+    assistant: true
+    note: UIL
+  - title: Godspell
+    writers: Schwartz, Tebelak
+    venue: Birmingham-Southern College
+    assistant: true
+  - title: Footloose
+    writers: Snow, Pitchford, Loggins, Bobbie
+    venue: Hoover High School
+    assistant: true
+  - title: A Midsummer Night’s Dream
+    writers: William Shakespeare
+    venue: Round Rock High School
+    assistant: true
+
+performance:
+  - title: Romeo and Juliet
+    role: Romeo
+    venue: Pigeon Cry Productions
+  - title: Romeo and Juliet
+    role: Friar Laurence
+    venue: City Theatre Austin
+  - title: Tartuffe
+    role: Valère
+    venue: City Theatre Austin
+  - title: Spring Awakening
+    role: Otto
+    venue: University of Birmingham (UK)
+  - title: Jesus Christ Superstar
+    role: disciple
+    venue: Birmingham-Southern College
+  - title: Fiddler on the Roof
+    role: Motel Kamzoil
+    venue: Hoover High School
+  - title: Once Upon a Mattress
+    role: Dauntless
+    venue: Hoover High School
+  - title: Rent
+    role: Restaurant Man/Mr. Jefferson
+    venue: Birmingham-Southern College
+
+education:
+  - degree: B.A. Theatre Arts
+    date: January 2015
+    school: Birmingham-Southern College
+    location: Birmingham, AL
+    highlights:
+      - First student in history of college to direct a mainstage production
+      - Distinguished Teaching Fellow, Intermediate Acting
+      - President, Alpha Psi Omega Theatre Honor Society

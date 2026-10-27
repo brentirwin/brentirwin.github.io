@@ -1,0 +1,41 @@
+---
+layout: page
+title: Media
+nav_order: 2
+permalink: /media/
+---
+
+{% assign e = site.elsewhere %}
+
+{% if e.letterboxd != "" %}
+<h2><a class="section-link" href="https://letterboxd.com/{{ e.letterboxd }}/">Letterboxd</a></h2>
+{% include letterboxd-diary.html %}
+{% endif %}
+
+{% if e.goodreads != "" %}
+<h2><a class="section-link" href="https://www.goodreads.com/user/show/{{ e.goodreads }}">Goodreads</a></h2>
+{% include goodreads-shelf.html %}
+{% endif %}
+
+{% if e.ign_playlist != "" or e.github != "" %}
+<ul class="elsewhere">
+  {% if e.ign_playlist != "" %}
+  <li>
+    <a class="service" href="{{ e.ign_playlist }}">IGN Playlist</a>
+    <span class="note">Games I'm playing, finished, and have in the backlog.</span>
+  </li>
+  {% endif %}
+  {% if e.github != "" %}
+  <li>
+    <a class="service" href="https://github.com/{{ e.github }}">GitHub</a>
+    <span class="note">Code, including the source for this site.</span>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
+
+{% if e.letterboxd == "" and e.ign_playlist == "" and e.goodreads == "" and e.github == "" %}
+<div class="placeholder">
+  No links yet. Add your usernames under <code>elsewhere:</code> in <code>_config.yml</code>.
+</div>
+{% endif %}

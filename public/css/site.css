@@ -1,0 +1,429 @@
+/* Small additions on top of Hyde. Keep custom styles here so the
+   original theme files stay untouched. */
+
+/* --accent is the link color of the Hyde theme picked in _config.yml
+   (hyde_theme), so custom hover colors below match it. */
+body                { --accent: #268bd2; }
+body.theme-base-08  { --accent: #ac4142; }
+body.theme-base-09  { --accent: #d28445; }
+body.theme-base-0a  { --accent: #f4bf75; }
+body.theme-base-0b  { --accent: #90a959; }
+body.theme-base-0c  { --accent: #75b5aa; }
+body.theme-base-0d  { --accent: #6a9fb5; }
+body.theme-base-0e  { --accent: #aa759f; }
+body.theme-base-0f  { --accent: #8f5536; }
+
+/* Fonts: Karla everywhere, Fraunces for the name in the sidebar
+   (replaces Hyde's PT Sans and Abril Fatface). */
+html {
+  font-family: "Karla", Helvetica, Arial, sans-serif;
+}
+.sidebar-about h1 {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 700;
+  line-height: 1.05;
+}
+
+/* Drawing above the name in the sidebar. The image is black lines on
+   white; invert + screen turns the lines white and lets the sidebar
+   color show through where the image was white. */
+.sidebar-avatar {
+  display: block;
+  width: 4.5rem;
+  height: auto;
+  margin: 0 auto 1rem; /* centered in the mobile banner */
+  filter: invert(1);
+  mix-blend-mode: screen;
+}
+@media (min-width: 48em) {
+  .sidebar-avatar {
+    width: 8rem;
+    margin: 0 0 1.25rem; /* left-aligned with the name on desktop */
+  }
+}
+
+/* Byline ("Theatre Director / Austin, TX") under the name in the sidebar */
+.sidebar-byline {
+  margin-bottom: .75rem;
+  color: rgba(255,255,255,.85);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Email link under the name in the sidebar */
+.sidebar-email {
+  font-size: 1rem;
+}
+.sidebar-email a {
+  color: rgba(255,255,255,.85);
+  white-space: nowrap;
+}
+.sidebar-email a:hover,
+.sidebar-email a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+.sidebar-email .icon {
+  margin-right: .3em;
+  vertical-align: -.125em;
+}
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+.post-list li {
+  margin-bottom: .5rem;
+}
+.post-list small {
+  color: #9a9a9a;
+  margin-left: .5rem;
+}
+
+.elsewhere {
+  list-style: none;
+  padding-left: 0;
+}
+.elsewhere li {
+  margin-bottom: 1rem;
+}
+.elsewhere .service {
+  font-weight: bold;
+}
+.elsewhere .note {
+  display: block;
+  color: #9a9a9a;
+  font-size: .9rem;
+}
+
+/* Responsive embeds (charts, videos). Wrap an <iframe> in
+   <div class="embed"> and it scales with the page. */
+.embed {
+  position: relative;
+  width: 100%;
+  padding-top: 62.5%; /* 16:10; override with style="padding-top: …" */
+  margin-bottom: 1.5rem;
+}
+.embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.placeholder {
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 2px dashed #ddd;
+  color: #9a9a9a;
+  border-radius: 4px;
+}
+
+/* Letterboxd diary (_includes/letterboxd-diary.html): one block per
+   month with a little calendar badge, one line per film. */
+.lb-diary {
+  margin-bottom: 1.5rem;
+}
+.lb-month {
+  display: flex;
+  gap: 1rem;
+  padding: .75rem 0;
+  border-bottom: 1px solid #eee;
+}
+.lb-month:first-child {
+  border-top: 1px solid #eee;
+}
+
+.lb-cal {
+  position: relative;
+  flex: 0 0 2.6rem;
+  align-self: flex-start;
+  margin-top: .3rem;
+  padding: .3rem 0 .2rem;
+  border-radius: 4px;
+  background: #e5e5e5;
+  color: #777;
+  text-align: center;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+/* the two "rings" at the top of the calendar */
+.lb-cal::before {
+  content: "";
+  position: absolute;
+  top: -.2rem;
+  left: 25%;
+  right: 25%;
+  height: .35rem;
+  border-left: 3px solid #bbb;
+  border-right: 3px solid #bbb;
+}
+.lb-cal-month {
+  display: block;
+  font-size: .75rem;
+  letter-spacing: .03em;
+}
+.lb-cal-year {
+  display: block;
+  font-size: .6rem;
+}
+
+.lb-films {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.lb-films li {
+  display: flex;
+  align-items: baseline;
+  gap: .4rem;
+  padding: .15rem 0;
+}
+.lb-day {
+  flex: 0 0 1.4rem;
+  color: #9a9a9a;
+  font-size: .85rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.content a.lb-title {
+  min-width: 0;
+  overflow: hidden;
+  color: #313131;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content a.lb-title:hover {
+  color: var(--accent);
+}
+.lb-stars {
+  margin-left: auto;
+  padding-left: .5rem;
+  color: #00c030; /* Letterboxd green */
+  font-size: .8rem;
+  white-space: nowrap;
+}
+.lb-like {
+  color: #ff8000; /* Letterboxd orange */
+  font-size: .85rem;
+}
+.lb-title + .lb-like,
+.lb-title + .lb-rewatch {
+  margin-left: auto; /* push to the right when there are no stars */
+}
+.lb-rewatch {
+  color: #9a9a9a;
+  font-size: .85rem;
+}
+.lb-more {
+  margin-top: .5rem;
+  font-size: .8rem;
+}
+
+/* Goodreads shelf (_includes/goodreads-shelf.html): same rhythm as the
+   Letterboxd diary, but one row per book with its cover. */
+.gr-shelf {
+  margin: 0 0 .5rem;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #eee;
+}
+.gr-shelf li {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+  padding: .5rem 0;
+  border-bottom: 1px solid #eee;
+}
+.gr-cover {
+  flex: 0 0 2.2rem;
+}
+.gr-cover img {
+  display: block;
+  width: 2.2rem;
+  height: 3.3rem;
+  margin: 0;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.08);
+}
+.gr-info {
+  flex: 1;
+  min-width: 0;
+  line-height: 1.3;
+}
+.content a.gr-title {
+  display: block;
+  overflow: hidden;
+  color: #313131;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.content a.gr-title:hover {
+  color: var(--accent);
+}
+.gr-meta {
+  display: block;
+  color: #9a9a9a;
+  font-size: .8rem;
+}
+.gr-verdict {
+  padding-left: .5rem;
+  font-size: .8rem;
+  white-space: nowrap;
+}
+.gr-loved {
+  color: #ff8000; /* same orange as Letterboxd likes */
+}
+.gr-liked {
+  color: #00c030; /* same green as Letterboxd stars */
+}
+.gr-not {
+  color: #9a9a9a;
+}
+
+/* Section headings that link to a profile (Media page) */
+.content a.section-link {
+  color: inherit;
+}
+.content a.section-link:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+/* Layered Google Sheets charts (_includes/chart-stack.html) */
+.chart-stack {
+  margin: 0 0 1.5rem;
+  overflow: hidden;
+}
+.chart-stack-sizer {
+  position: relative;
+}
+.chart-stack-frame {
+  position: relative;
+  transform-origin: 0 0;
+}
+.chart-stack-item {
+  position: absolute;
+  margin: 0;
+  max-width: none;
+  border: 0;
+}
+/* Overlays let the mouse through, so the interactive chart underneath
+   still shows its tooltips. */
+img.chart-stack-item {
+  display: block;
+  pointer-events: none;
+}
+.chart-stack-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px dashed #ccc;
+  border-radius: 4px;
+  background: rgba(255,255,255,.6);
+  color: #9a9a9a;
+  font-size: .8rem;
+  text-align: center;
+  pointer-events: none;
+}
+
+/* Arrange mode (/japanese/?arrange, see public/js/chart-arrange.js) */
+.is-arranging .is-draggable {
+  outline: 1px dashed var(--accent);
+  cursor: move;
+  touch-action: none;
+  pointer-events: auto;
+}
+.chart-arrange-output {
+  margin-top: 1rem;
+  font-size: .75rem;
+}
+
+/* Resume page (resume.html, data in _data/resume.yml) */
+.resume-list {
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid #eee;
+}
+.resume-list > li {
+  padding: .5rem 0;
+  border-bottom: 1px solid #eee;
+  line-height: 1.35;
+}
+.resume-title {
+  display: block;
+  color: #313131;
+  font-weight: bold;
+}
+.resume-meta {
+  display: block;
+  color: #717171;
+  font-size: .85rem;
+}
+.resume-role {
+  font-style: italic;
+}
+.resume-tag {
+  color: #9a9a9a;
+}
+.resume-note {
+  display: block;
+  color: #9a9a9a;
+  font-size: .75rem;
+}
+.resume-education ul {
+  margin-top: .5rem;
+  font-size: .9rem;
+}
+
+/* Home page portrait (index.html): small, with the caption beside it */
+.headshot {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 0;
+}
+.headshot img {
+  display: block;
+  flex: 0 0 6rem;
+  width: 6rem;
+  height: auto;
+  margin: 0;
+  border-radius: 4px;
+}
+.headshot figcaption {
+  color: #515151;
+  font-size: .95rem;
+  line-height: 1.45;
+}
+.headshot figcaption strong {
+  color: #313131;
+}
+
+/* Pages with `wide: true` in their front matter (the home page) get a
+   wider column than Hyde's usual reading width. */
+@media (min-width: 48em) {
+  .layout-wide .content {
+    max-width: 52rem;
+  }
+}
+
+/* Production photos at the top of the home page: one per row, as wide
+   as the page allows, so they're the main feature. */
+.production-photos {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.production-photos img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 4px;
+}

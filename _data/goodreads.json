@@ -1,0 +1,805 @@
+{
+  "profile": "6518326-brent-irwin",
+  "books": [
+    {
+      "title": "A Separate Peace",
+      "author": "John Knowles",
+      "read": "2026-08-01",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/9052845663",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1528860889l/5148._SX98_.jpg"
+    },
+    {
+      "title": "The Heart Is a Lonely Hunter",
+      "author": "Carson McCullers",
+      "read": "2026-07-01",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/8137969045",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1385265834l/37380._SX98_.jpg"
+    },
+    {
+      "title": "You Can't Take it With You",
+      "author": "Moss Hart",
+      "read": "2026-06-01",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/9052848710",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1275788797l/170599._SX98_.jpg"
+    },
+    {
+      "title": "Beautiful Ugly",
+      "author": "Alice Feeney",
+      "read": "2026-04-19",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/8528502351",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1716839545l/210993995._SX98_.jpg"
+    },
+    {
+      "title": "Home Before Dark",
+      "author": "Riley Sager",
+      "read": "2026-03-31",
+      "verdict": "liked-it",
+      "url": "https://www.goodreads.com/review/show/8485566579",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1571683410l/50833559._SX98_SY160_.jpg"
+    },
+    {
+      "title": "The House Across the Lake",
+      "author": "Riley Sager",
+      "read": "2026-03-20",
+      "verdict": "not-for-me",
+      "url": "https://www.goodreads.com/review/show/8485567485",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639618949l/58909880._SX98_.jpg"
+    },
+    {
+      "title": "Buckeye",
+      "author": "Patrick Ryan",
+      "read": "2026-03-17",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/8453566467",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1733285810l/221251828._SX98_.jpg"
+    },
+    {
+      "title": "Needful Things",
+      "author": "Stephen King",
+      "read": "2025-12-29",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/8034079739",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632321110l/59053863._SX98_.jpg"
+    },
+    {
+      "title": "The Last Time I Lied",
+      "author": "Riley Sager",
+      "read": "2025-12-21",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/8153246390",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1511141004l/36626748._SX98_.jpg"
+    },
+    {
+      "title": "The Housemaid (The Housemaid, #1)",
+      "author": "Freida McFadden",
+      "read": "2025-12-16",
+      "verdict": "liked-it",
+      "url": "https://www.goodreads.com/review/show/8062937837",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1646534743l/60556912._SX98_.jpg"
+    },
+    {
+      "title": "Hamnet",
+      "author": "Maggie O'Farrell",
+      "read": "2025-12-14",
+      "verdict": "not-for-me",
+      "url": "https://www.goodreads.com/review/show/8111097852",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1620095574l/57426099._SX98_.jpg"
+    },
+    {
+      "title": "Survive the Night",
+      "author": "Riley Sager",
+      "read": "2025-12-13",
+      "verdict": "liked-it",
+      "url": "https://www.goodreads.com/review/show/8143767564",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1603780911l/55628983._SX98_.jpg"
+    },
+    {
+      "title": "Boy's Life",
+      "author": "Robert McCammon",
+      "read": "2025-12-02",
+      "verdict": "liked-it",
+      "url": "https://www.goodreads.com/review/show/8034080200",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1314302694l/11553._SX98_.jpg"
+    },
+    {
+      "title": "We Used to Live Here",
+      "author": "Marcus Kliewer",
+      "read": "2025-12-02",
+      "verdict": "not-for-me",
+      "url": "https://www.goodreads.com/review/show/8064953735",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1697756012l/199798006._SX98_.jpg"
+    },
+    {
+      "title": "33 Variations",
+      "author": "Moisés Kaufman",
+      "read": "2025-11-29",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/8133043845",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387704714l/11025633._SX98_.jpg"
+    },
+    {
+      "title": "The Girl on the Train",
+      "author": "Paula Hawkins",
+      "read": "2025-11-27",
+      "verdict": "not-for-me",
+      "url": "https://www.goodreads.com/review/show/8068596974",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1748242265l/22557272._SX98_.jpg"
+    },
+    {
+      "title": "Daisy Darker",
+      "author": "Alice Feeney",
+      "read": "2025-11-12",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/8059397176",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1639604124l/59808050._SX98_.jpg"
+    },
+    {
+      "title": "The Importance of Being Earnest",
+      "author": "Oscar Wilde",
+      "read": "2025-10-01",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/8056776773",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1298438452l/92303._SX98_.jpg"
+    },
+    {
+      "title": "Skeleton Crew",
+      "author": "Stephen King",
+      "read": "2025-08-31",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/7738645270",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1561291724l/28378571._SX98_.jpg"
+    },
+    {
+      "title": "Tress of the Emerald Sea (Hoid's Travails, #1)",
+      "author": "Brandon Sanderson",
+      "read": "2025-08-31",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/8035057433",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1672574587l/60531406._SX98_.jpg"
+    },
+    {
+      "title": "Dead Eleven",
+      "author": "Jimmy Juliano",
+      "read": "2025-07-01",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/7690689608",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668017718l/59362122._SX98_.jpg"
+    },
+    {
+      "title": "Doubt, a Parable",
+      "author": "John Patrick Shanley",
+      "read": "2025-05-01",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/8068565247",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327908288l/185012._SX98_.jpg"
+    },
+    {
+      "title": "Pippin",
+      "author": "Stephen Schwartz",
+      "read": "2025-05-01",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/8038912977",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1314298935l/1109338._SX98_.jpg"
+    },
+    {
+      "title": "Cujo",
+      "author": "Stephen King",
+      "read": "2025-04-01",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/8038908436",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1217300692l/940451._SY160_.jpg"
+    },
+    {
+      "title": "Great Expectations",
+      "author": "Charles Dickens",
+      "read": "2025-02-28",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/2762995232",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1504436273l/36117491._SX98_.jpg"
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Mary Wollstonecraft Shelley",
+      "read": "2025-02-28",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/8034091887",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611669409l/282702._SX98_.jpg"
+    },
+    {
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "read": "2025-01-01",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/8056774494",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668782119l/40097951._SX98_.jpg"
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Junji Ito",
+      "read": "2025-01-01",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/8036704584",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530432597l/39810297._SX98_.jpg"
+    },
+    {
+      "title": "Uzumaki",
+      "author": "Junji Ito",
+      "read": "2024-12-01",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/8036705330",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1476677569l/17837762._SX98_.jpg"
+    },
+    {
+      "title": "All the Light We Cannot See",
+      "author": "Anthony Doerr",
+      "read": "2024-09-30",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/6764109133",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1451445646l/18143977._SX98_.jpg"
+    },
+    {
+      "title": "Different Seasons",
+      "author": "Stephen King",
+      "read": "2024-07-24",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/6695181080",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562482060l/11569._SX98_.jpg"
+    },
+    {
+      "title": "’Salem’s Lot",
+      "author": "Stephen King",
+      "read": "2024-07-15",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/6681693874",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738025067l/11590._SY160_.jpg"
+    },
+    {
+      "title": "The Sign of the Four (Sherlock Holmes, #2)",
+      "author": "Arthur Conan Doyle",
+      "read": "2024-07-02",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/6636164261",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348801964l/15980913._SX98_.jpg"
+    },
+    {
+      "title": "Stardust",
+      "author": "Neil Gaiman",
+      "read": "2024-06-30",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/6464880120",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614642234l/57281460._SX98_.jpg"
+    },
+    {
+      "title": "Something Rotten!: Libretto Vocal Book",
+      "author": "Karey Kirkpatrick",
+      "read": "2024-04-04",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/6406584463",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1647101589l/60598071._SX98_.jpg"
+    },
+    {
+      "title": "The Tempest",
+      "author": "William Shakespeare",
+      "read": "2024-03-13",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/6341623455",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546081115l/12985._SX98_.jpg"
+    },
+    {
+      "title": "The Birthday Party",
+      "author": "Harold Pinter",
+      "read": "2024-03-11",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/6335350198",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1347417140l/74090._SX98_.jpg"
+    },
+    {
+      "title": "Rosencrantz and Guildenstern Are Dead",
+      "author": "Tom Stoppard",
+      "read": "2024-03-10",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/6333663981",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1338735611l/18545._SX98_.jpg"
+    },
+    {
+      "title": "How I Learned to Drive",
+      "author": "Paula Vogel",
+      "read": "2024-03-09",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/6330205340",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391658956l/141658._SX98_.jpg"
+    },
+    {
+      "title": "The Glass Menagerie",
+      "author": "Tennessee Williams",
+      "read": "2024-03-01",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/6237737311",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391591003l/92517._SX98_.jpg"
+    },
+    {
+      "title": "The Children's Hour",
+      "author": "Lillian Hellman",
+      "read": "2024-02-05",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/6225557883",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1387666125l/858313._SX98_.jpg"
+    },
+    {
+      "title": "Death of a Salesman",
+      "author": "Arthur Miller",
+      "read": "2024-02-01",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2770099919",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1554514105l/12898._SX98_.jpg"
+    },
+    {
+      "title": "The Chalk Man",
+      "author": "C.J. Tudor",
+      "read": "2024-01-27",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/6198886992",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634301940l/59352991._SY160_.jpg"
+    },
+    {
+      "title": "No Exit",
+      "author": "Taylor Adams",
+      "read": "2023-09-29",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/5834172129",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1537752207l/40106375._SX98_.jpg"
+    },
+    {
+      "title": "Rock Paper Scissors",
+      "author": "Alice Feeney",
+      "read": "2023-09-10",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/5829631463",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1613018253l/57026221._SX98_.jpg"
+    },
+    {
+      "title": "A House at the Bottom of a Lake",
+      "author": "Josh Malerman",
+      "read": "2023-09-08",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/5759023840",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1591916407l/53963989._SX98_.jpg"
+    },
+    {
+      "title": "Lock Every Door",
+      "author": "Riley Sager",
+      "read": "2023-09-06",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/5814439466",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540938387l/42379030._SX98_.jpg"
+    },
+    {
+      "title": "The Sailor Who Fell from Grace with the Sea",
+      "author": "Yukio Mishima",
+      "read": "2023-07-27",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/5726296918",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327629352l/162332._SX98_.jpg"
+    },
+    {
+      "title": "Hard-Boiled Wonderland and the End of the World",
+      "author": "Haruki Murakami",
+      "read": "2023-07-22",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/5698692516",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328334781l/11297277._SX98_.jpg"
+    },
+    {
+      "title": "The Cherry Orchard",
+      "author": "Anton Chekhov",
+      "read": "2023-01-01",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/5410569694",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1546625162l/87346._SX98_.jpg"
+    },
+    {
+      "title": "Hedda Gabler",
+      "author": "Henrik Ibsen",
+      "read": "2022-09-16",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/4984356358",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348233987l/292275._SX98_.jpg"
+    },
+    {
+      "title": "Backwards and Forwards: A Technical Manual for Reading Plays",
+      "author": "David Ball",
+      "read": "2022-09-10",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/4984354979",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328813529l/284938._SY160_.jpg"
+    },
+    {
+      "title": "よつばと! 2 [Yotsuba&! 2]",
+      "author": "Kiyohiko Azuma",
+      "read": "2022-07-15",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/4842384058",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1372231119l/1152868._SX98_.jpg"
+    },
+    {
+      "title": "うちの息子はたぶんゲイ 1 [Uchi no Musuko wa Tabun Gay 1]",
+      "author": "Okura",
+      "read": "2022-07-14",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/4842382913",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1566585602l/52332400._SX98_SY160_.jpg"
+    },
+    {
+      "title": "Welcome to the Monkey House",
+      "author": "Kurt Vonnegut Jr.",
+      "read": "2022-06-20",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/4453001153",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1533340572l/4985._SX98_.jpg"
+    },
+    {
+      "title": "よつばと! 1 [Yotsuba&! 1]",
+      "author": "Kiyohiko Azuma",
+      "read": "2022-06-18",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/4486599305",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1372227163l/1152869._SX98_.jpg"
+    },
+    {
+      "title": "しろくまカフェbis 1 (しろくまカフェbis, #1)",
+      "author": "ヒガ アロハ",
+      "read": "2022-01-26",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/4441388182",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519302136l/38720107._SX98_.jpg"
+    },
+    {
+      "title": "The Giver (Giver, #1)",
+      "author": "Lois Lowry",
+      "read": "2022-01-18",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2762988729",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342493368l/3636._SY160_.jpg"
+    },
+    {
+      "title": "Before the Coffee Gets Cold (Before the Coffee Gets Cold, #1)",
+      "author": "Toshikazu Kawaguchi",
+      "read": "2022-01-16",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3508894304",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1582469388l/51603444._SX98_.jpg"
+    },
+    {
+      "title": "The Elephant Vanishes",
+      "author": "Haruki Murakami",
+      "read": "2022-01-08",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3665335457",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1567030140l/52746646._SX98_SY160_.jpg"
+    },
+    {
+      "title": "The Ghosts of Mercy Manor",
+      "author": "Betty Ren Wright",
+      "read": "2021-12-31",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/4427305836",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441179878l/127170._SX98_.jpg"
+    },
+    {
+      "title": "Smoke and Mirrors: Short Fiction and Illusions",
+      "author": "Neil Gaiman",
+      "read": "2021-12-31",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/4427277795",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1682792067l/16790._SX98_.jpg"
+    },
+    {
+      "title": "Night Shift",
+      "author": "Stephen King",
+      "read": "2021-12-28",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/4427273683",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660820449l/10628._SX98_.jpg"
+    },
+    {
+      "title": "Who's Afraid of Virginia Woolf?",
+      "author": "Edward Albee",
+      "read": "2021-07-12",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2841291761",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327962277l/14940._SX98_.jpg"
+    },
+    {
+      "title": "Mr. Penumbra's 24-Hour Bookstore (Mr. Penumbra's 24-Hour Bookstore, #1)",
+      "author": "Robin Sloan",
+      "read": "2021-01-09",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2768133284",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1345089845l/13538873._SX98_.jpg"
+    },
+    {
+      "title": "Common Sense",
+      "author": "Thomas Paine",
+      "read": "2020-12-09",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3686203337",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309209451l/161744._SX98_.jpg"
+    },
+    {
+      "title": "The Silent Scream (Nightmare Hall, #1)",
+      "author": "Diane Hoh",
+      "read": "2020-11-01",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3624382173",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1242186658l/310894._SY160_.jpg"
+    },
+    {
+      "title": "The Shining (The Shining #1)",
+      "author": "Stephen King",
+      "read": "2020-10-30",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/3621496651",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1693686319l/6324651._SX98_.jpg"
+    },
+    {
+      "title": "If We Were Villains",
+      "author": "M.L. Rio",
+      "read": "2020-10-05",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/3548926091",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1688460758l/32874746._SX98_.jpg"
+    },
+    {
+      "title": "The Saturday Night Ghost Club",
+      "author": "Craig Davidson",
+      "read": "2020-09-19",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3544492282",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1539794127l/42378784._SX98_.jpg"
+    },
+    {
+      "title": "The Haunting of Hill House",
+      "author": "Shirley Jackson",
+      "read": "2020-09-11",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3540569063",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624554054l/50534595._SX98_.jpg"
+    },
+    {
+      "title": "Gone Girl",
+      "author": "Gillian Flynn",
+      "read": "2020-09-09",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3528785746",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328329583l/13261812._SX98_.jpg"
+    },
+    {
+      "title": "Sometimes I Lie",
+      "author": "Alice Feeney",
+      "read": "2020-09-02",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3519806059",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1722533444l/36112959._SY160_.jpg"
+    },
+    {
+      "title": "Too Many Secrets",
+      "author": "Betty Ren Wright",
+      "read": "2020-08-30",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3521395213",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1439749519l/127165._SX98_.jpg"
+    },
+    {
+      "title": "So B. It (So B. It, #1)",
+      "author": "Sarah Weeks",
+      "read": "2020-08-29",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3520031705",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386925805l/237320._SX98_.jpg"
+    },
+    {
+      "title": "Pet Sematary",
+      "author": "Stephen King",
+      "read": "2020-08-28",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/3511585682",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1730548765l/45030607._SX98_.jpg"
+    },
+    {
+      "title": "Turtles All the Way Down",
+      "author": "John Green",
+      "read": "2020-08-23",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3507873640",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1502482900l/35498621._SX98_.jpg"
+    },
+    {
+      "title": "The Three-Body Problem (Remembrance of Earth’s Past, #1)",
+      "author": "Liu Cixin",
+      "read": "2020-08-21",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2768978246",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415428227l/20518872._SX98_.jpg"
+    },
+    {
+      "title": "Little Fires Everywhere",
+      "author": "Celeste Ng",
+      "read": "2020-08-16",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3489218991",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1586909248l/34331079._SX98_.jpg"
+    },
+    {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "read": "2020-08-10",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/2767829867",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1363719471l/17662207._SX98_.jpg"
+    },
+    {
+      "title": "We Were Liars",
+      "author": "E. Lockhart",
+      "read": "2020-07-29",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3465687087",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1752679021l/39673241._SX98_.jpg"
+    },
+    {
+      "title": "Going Clear: Scientology, Hollywood, and the Prison of Belief",
+      "author": "Lawrence Wright",
+      "read": "2020-05-31",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3366990174",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358119149l/16142053._SX98_.jpg"
+    },
+    {
+      "title": "Ready Player One (Ready Player One, #1)",
+      "author": "Ernest Cline",
+      "read": "2020-05-13",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3322181456",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1390275705l/20603758._SX98_.jpg"
+    },
+    {
+      "title": "The Adventure Zone Vol.1: Here There Be Gerblins",
+      "author": "Clint McElroy",
+      "read": "2020-04-30",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3301792269",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1507691828l/35684941._SX98_.jpg"
+    },
+    {
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "read": "2020-04-29",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3301561814",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1499466203l/35619410._SX98_.jpg"
+    },
+    {
+      "title": "The Autobiography of Benjamin Franklin",
+      "author": "Benjamin Franklin",
+      "read": "2020-04-25",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2987602266",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516476979l/35666660._SX98_.jpg"
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "read": "2020-04-23",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3294115062",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496336840l/35113385._SX98_.jpg"
+    },
+    {
+      "title": "I'm Thinking of Ending Things",
+      "author": "Iain Reid",
+      "read": "2020-04-23",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/3297694143",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1625603942l/40605223._SX98_.jpg"
+    },
+    {
+      "title": "The Mysterious Affair at Styles (Hercule Poirot, #1)",
+      "author": "Agatha Christie",
+      "read": "2020-04-21",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3028629063",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1518914885l/36391334._SX98_.jpg"
+    },
+    {
+      "title": "Dance Dance Dance (The Rat, #4)",
+      "author": "Haruki Murakami",
+      "read": "2020-04-19",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/3281118083",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328310649l/10327184._SX98_.jpg"
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "read": "2019-10-29",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2762995999",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1383718290l/13079982._SX98_.jpg"
+    },
+    {
+      "title": "Bobby Fischer Teaches Chess",
+      "author": "Bobby Fischer",
+      "read": "2019-09-17",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2972562165",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1699901807l/7593790.jpg"
+    },
+    {
+      "title": "Pandolfini's Ultimate Guide to Chess: Basic to Advanced Strategies with America's Foremost Chess Instructor",
+      "author": "Bruce Pandolfini",
+      "read": "2019-09-13",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2972563895",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388623005l/360163._SX98_.jpg"
+    },
+    {
+      "title": "The Taming of the Shrew",
+      "author": "William Shakespeare",
+      "read": "2019-09-08",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2963323589",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1327935253l/47021._SX98_.jpg"
+    },
+    {
+      "title": "And Then There Were None: or Ten Little Indians",
+      "author": "Agatha Christie",
+      "read": "2019-04-06",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2769164360",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551413206l/44163975._SX98_.jpg"
+    },
+    {
+      "title": "A Game of Thrones (A Song of Ice and Fire, #1)",
+      "author": "George R.R. Martin",
+      "read": "2019-04-03",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2762991422",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1661026809l/11264999._SY160_.jpg"
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "read": "2019-03-28",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/2763153373",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1298180450l/5485._SX98_.jpg"
+    },
+    {
+      "title": "A Study in Scarlet (Sherlock Holmes, #1)",
+      "author": "Arthur Conan Doyle",
+      "read": "2019-03-23",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2762952934",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1519031842l/102868._SX98_.jpg"
+    },
+    {
+      "title": "12 Rules for Life: An Antidote to Chaos",
+      "author": "Jordan B. Peterson",
+      "read": "2018-04-01",
+      "verdict": null,
+      "url": "https://www.goodreads.com/review/show/2769724239",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1512705866l/30257963._SX98_.jpg"
+    },
+    {
+      "title": "Glengarry Glen Ross",
+      "author": "David Mamet",
+      "read": "2018-01-01",
+      "verdict": "loved-it",
+      "url": "https://www.goodreads.com/review/show/2770099224",
+      "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1396078804l/251446._SX98_.jpg"
+    }
+  ]
+}

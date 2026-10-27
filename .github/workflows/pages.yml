@@ -1,0 +1,53 @@
+# Builds and publishes the site to GitHub Pages.
+# Runs on every push, every 6 hours (to pick up new Letterboxd and Goodreads entries),
+# and on demand from the Actions tab ("Run workflow").
+name: Build and deploy site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # If Letterboxd or Goodreads is down, keep going with the copy
+      # already in the repo instead of failing the whole deploy.
+      - name: Fetch Letterboxd diary
+        run: ruby scripts/fetch-letterboxd.rb
+        continue-on-error: true
+
+      - name: Fetch Goodreads shelf
+        run: ruby scripts/fetch-goodreads.rb
+        continue-on-error: true
+
+      - uses: actions/configure-pages@v5
+
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

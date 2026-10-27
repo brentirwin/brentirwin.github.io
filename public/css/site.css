@@ -381,12 +381,12 @@ img.chart-stack-item {
   font-size: .9rem;
 }
 
-/* Home page portrait (index.html): small, with the caption beside it */
+/* Home page portrait (index.html): small, at the top, with the caption beside it */
 .headshot {
   display: flex;
   align-items: center;
   gap: 1rem;
-  margin: 0;
+  margin: 0 0 1.5rem;
 }
 .headshot img {
   display: block;
@@ -413,12 +413,11 @@ img.chart-stack-item {
   }
 }
 
-/* Production photos at the top of the home page: one per row, as wide
-   as the page allows, so they're the main feature. */
+/* Production photos on the home page, below the portrait: one per row,
+   as wide as the page allows, so they're the main feature. */
 .production-photos {
   display: grid;
   gap: 1rem;
-  margin-bottom: 2rem;
 }
 .production-photos img {
   display: block;
